@@ -1,0 +1,122 @@
+/* *{
+ height: 1000vh;   
+} */
+
+/* container */
+.container{
+    display: 'flex';
+    flex-flow: row wrap;
+
+}
+
+.logo {
+    top: 0;
+    position: 'fixed';
+    margin-left: 2rem;
+    color: rgba(255, 157, 40, 1);
+    font-size: 2rem;
+    font-weight: var(--fw-500);
+    text-decoration: none;
+    transition: transform 0.5s;
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+}
+
+.logo:hover {
+    border-radius: 100px;
+    background-color:  rgba(255, 255, 255, 1);
+    transform: rotate3d(1,0.5,0.1,-30deg) scale(1.1);
+    flex-grow: 5px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+
+.falist-0 {
+    visibility: hidden;
+}
+
+.fa1list-1 {
+    visibility: visible;
+}
+
+.ls{
+    margin-bottom: 15px;
+    margin-right: 10px;
+    height: 0vh;
+    /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; */
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    justify-content: space-between;
+    gap: 30px;
+    padding-inline: 20;
+}
+
+.lswrap{
+    margin-top: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: repeat(6, 15%);
+    gap: 10px;
+}
+
+.lk{
+    color: var(--white-1);
+    font-size: 1.8rem;
+    padding-block: 10px 0;
+    border-bottom: 10px solid transparent;
+    text-decoration: none;
+    transition: transform 0.5s;
+    display: inline-block;
+}
+
+.lk:hover {
+    border-radius: 100px;
+    background-color:  rgba(255, 255, 255, 1);
+    transform: rotate3d(1,0.5,0.1,-30deg) scale(1.2);
+    flex-grow: 5px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+
+.contactus{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.8rem;
+    background-color: rgba(126, 181, 185, 1);
+    text-decoration: none;
+    border-top: 0px solid transparent;
+    border: 10px 10px 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 8px;
+    transition: transform 0.5s;
+    display: inline-block;
+}
+
+.contactus:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 157, 40, 1);
+    /* text-decoration: none; */
+    border-top: 0px solid transparent;
+    border: 10px 10px 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 8px;
+    transform: rotate3d(1,0.5,0.1,-30deg) scale(1.2);
+    flex-grow: 5px;
+    box-shadow: 5px 5px 5px gold;
+}
+
+
+
+.themecolors{
+    background-color: rgba(31, 78, 89, 1);
+    background-color: rgba(126, 181, 185, 1);
+    background-color: rgba(238, 234, 229, 1);
+    background-color: rgba(255, 157, 40, 1);
+    background-color: rgba(234, 107, 31, 1);
+}
+
