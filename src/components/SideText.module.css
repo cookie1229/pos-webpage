@@ -1,0 +1,38 @@
+.slide-container {
+    padding-inline: 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .each-slide-effect > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: cover;
+      height: 350px;
+    }
+    
+    .each-slide-effect span {
+      padding: 20px;
+      font-size: 20px;
+      background: #efefef;
+      text-align: center;
+    }
+  
+  .h2, .h3, .h4 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .h2 {
+    font-size: 3rem;
+  }
+  
+  .h3 {
+    font-size: 1.8rem;
+  }
+
+  .h4 {
+    font-size: 1.3rem;
+  }
