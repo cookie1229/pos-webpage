@@ -63,6 +63,7 @@ const contents = [
       },
     ]
 //   <span style={spanStyle}>{slideImage.caption}</span>
+// test changes
 
   export const SideText = () => {
     return (
